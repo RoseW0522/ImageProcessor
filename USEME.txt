@@ -1,0 +1,69 @@
+Description of how to use the photo editor program by Ryan Chaput and Ruisi Wang.
+
+How to use the GUI:
+
+-Opening GUI will start with a blank image space and buttons to control the GUI
+
+-Load button opens a file browser to select the image to be opened. Supports loading .JPG, .PNG, .BMP, and .PPM files
+
+-Save button opens a file browser to save the currently displayed image. Supports saving .JPG, .PNG, .BMP, and .PPM files
+
+-Exit button will exit the program without saving the current image.
+
+-Greyscale button will apply a greyscale filter based on the luma component of each pixel
+
+-Sepia button will apply a sepia filter to the current image
+
+-Blur button will blur the image (specifics provided in the README file)
+
+-Sharpen button will sharpen the image (specifics provided in the README file)
+
+-The six component buttons (red, blue, green, luma, intensity, and value component buttons) will convert the image
+to greyscale based on the selected component, providing a visualization of the selected component
+
+-The three flip components will flip the current image in the listed ways: Horizontal, Vertical, or both
+
+-The brighten button will brighten the current image by a value of +25 (adds 25 to the value of each pixel component)
+
+-The darken button will darken the current image by a value of -25, similar to the brighten button
+
+-The window can be resized and scroll bars are provided if the full image cannot be displayed in the current window size
+    -If scroll bars are not present, resize the window slightly, and they will appear
+
+Supported text based commands (for running the program from a script or the command line):
+
+load <FILE_NAME> <PICTURE_NAME>
+
+save <FILE_NAME> <PICTURE_NAME>
+
+red-component <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+green-component <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+blue-component <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+value-component <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+intensity-component <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+luma-component <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+horizontal-flip <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+vertical-flip <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+double-flip <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+brighten <VALUE> <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+blur <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+sharpen <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+greyscale <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+sepia <PICTURE_NAME> <NEW_PICTURE_NAME>
+
+q
+
+quit

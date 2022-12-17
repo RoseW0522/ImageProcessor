@@ -1,0 +1,32 @@
+load Editable.JPG test 
+red-component test red 
+save red.png red 
+green-component test green 
+save green.jpg green
+blue-component test blue 
+save blue.png blue
+value-component test value 
+save value.bmp value 
+intensity-component test intensity 
+save intensity.png intensity 
+luma-component test luma 
+save luma.png luma 
+horizontal-flip test hFlip
+save hFlip.png hFlip 
+vertical-flip test vFlip 
+save vFlip.png vFlip
+double-flip test dFlip 
+save dFlip.png dFlip 
+brighten 100 test bright 
+save bright.png bright 
+brighten -50 test dark 
+save dark.png dark 
+blur test blur 
+save blur.png blur 
+sharpen test sharp 
+save sharp.png sharp 
+greyscale test grey 
+save grey.png grey 
+sepia test sepia 
+save sepia.png sepia 
+quit
